@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b7b6b6"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/Chrome"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chrome"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="20dp"
+               android:layout_margin="3dp"
+               android:src="@drawable/pro"
+               />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/skype"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="40dp"
+                    />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/Spotify"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="50dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skype"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="84dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spotify"
+                    android:textSize="20dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="90dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pro"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-20dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pro"
+                    android:layout_weight="2"
+                    android:layout_marginRight="50dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/Twitter"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/steam"
+                    android:layout_weight="2"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twitter"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="84dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steam"
+                    android:textSize="20dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="60dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pro"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-20dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pro"
+                    android:layout_weight="2"
+                    android:layout_marginRight="50dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/youtube"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/facebook"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/itunes"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Youtube"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:textSize="20dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Itunes"
+                    android:textSize="20dp"
+                    android:layout_weight="3"
+                    android:layout_marginRight="30dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pro"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pro"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pro"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

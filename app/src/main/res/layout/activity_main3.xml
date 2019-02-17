@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 Educational AndroidApps for teachers"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FFF1F1"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Android Note Taking Apps"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFF1F1"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f1"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f12"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f13"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FFF1F1"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Android Portafolio Apps"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFF1F1"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f21"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f22"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f23"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FFF1F1"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Android Presentation Apps"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFF1F1"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f31"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f32"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f33"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FFF1F1"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Android Reference Apps"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFF1F1"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f41"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f42"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/f43"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
